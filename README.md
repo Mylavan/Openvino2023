@@ -30,9 +30,10 @@ Folder Structure
 Note :: Few folder contains Zip (had to zip large file ) , so extract them in the same directory 
 
 Few Extra Things, that i have done  :: 
-1.Tried adding logo to .exe files using VC project .
-2.The sorce code automatically reads the no.of input/Output tensor automatically and the dimensions of them. Example :: 1*1*640*896 will be input tensor (1-> batch size , 1-> no of channels (grey scale here ) ,640 -> hight,
-896 ->width )
+1.Tried adding logo to .exe files using VC project.
+
+2.The sorce code automatically reads the no.of input/Output tensor automatically and the dimensions of them. Example :: 1*1*640*896 will be input tensor (1-> batch size , 1-> no of channels (grey scale here ) ,640 -> hight,896 ->width )
+
 3.Added Openvino2022 Runtime toolkit also, you just have to replace the existing "runtime" folder and after building , we need to move the appropriate dlls to x64 folder 
 
 You can reach out to me for any queries @ Mylavan.V@philips.com
