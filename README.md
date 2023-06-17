@@ -29,7 +29,8 @@ Folder Structure
            
 Note :: Few folder contains Zip (had to zip large file ) , so extract them in the same directory 
 
-Few Extra Things, that i have done  :: 
+Few Extra Things, that i have done  ::
+
 1.Tried adding logo to .exe files using VC project.
 
 2.The sorce code automatically reads the no.of input/Output tensor automatically and the dimensions of them. Example :: 1*1*640*896 will be input tensor (1-> batch size , 1-> no of channels (grey scale here ) ,640 -> hight,896 ->width )
